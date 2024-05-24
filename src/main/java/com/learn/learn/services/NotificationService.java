@@ -15,4 +15,8 @@ public class NotificationService {
     public List<Notification> saveAll(List<Notification> listNotifications) {
         return notificationInterface.saveAllNotification(listNotifications);
     }
+
+    public List<Notification> findAll() {
+        return notificationInterface.findAll();
+    }
 }

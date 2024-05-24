@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
         DbUnitTestExecutionListener.class
 })
 @ActiveProfiles("dev")
-@DatabaseSetup("test-dataset.xml")
+@DatabaseSetup(value = "/test-dataset.xml")
 @EnableCaching
 @DbUnitConfiguration(dataSetLoader = ColumnSensingFlatXMLDataSetLoader.class)
 public abstract class LearnApplicationTests {
@@ -41,7 +41,7 @@ public abstract class LearnApplicationTests {
 	// Mettre a dispositions des composants néccessaire
 	// pour faire les test sur les controleurs
 	@Autowired
-	private MockMvc mvc;
+	protected MockMvc mvc;
 
 
 	@Test
