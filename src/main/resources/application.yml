@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gestionnotification
+  profiles:
+    active: prod
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  # optionnel: affiche les requêtes SQL dans la console

@@ -1,0 +1,10 @@
+<dataset>
+    <NOTIFICATION
+        DTYPE="EmailNotification"
+        ID="1"
+        NOM="OUEDRAOGO"
+        PRENOM="FERNAND"
+        DATE_CREATION="1970-01-20 20:47:55.95"
+        EMAIL="fernand.ouedraogo@sonabel.bf"
+        NUMERO_TELEPHONE="" />
+</dataset>
